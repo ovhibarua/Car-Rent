@@ -72,6 +72,15 @@ body {
         letter-spacing: -0.32px;
     }
 
+    li {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        /* 24px */
+        letter-spacing: -0.32px;
+    }
+
     button {
         font-size: 16px;
         font-style: normal;
@@ -98,5 +107,23 @@ body {
         line-height: 150%;
         /* 21px */
         letter-spacing: -0.28px;
+    }
+}
+
+@layer components {
+    .paraDark {
+        color: #1A202C;
+    }
+
+    .paraGray {
+        color: #13131399;
+    }
+
+    .paraWhite {
+        color: #ffff;
+    }
+
+    .paraSkys {
+        color: #90A3BF;
     }
 }

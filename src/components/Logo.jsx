@@ -3,9 +3,7 @@ import Image from './Image'
 
 function Logo() {
     return (
-        <div>
-            <Image addImg="/src/assets/Icons/Logo.png" />
-        </div>
+        <Image addImg="/src/assets/Icons/Logo.png" />
     )
 }
 
