@@ -1,11 +1,13 @@
-import React from 'react'
+
+import Destination from './Destination'
 import HeroBanner from './HeroBanner'
 
 function Home() {
     return (
-        <header>
+        <>
             <HeroBanner />
-        </header>
+            <Destination />
+        </>
     )
 }
 

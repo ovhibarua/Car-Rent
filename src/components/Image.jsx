@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Image(add) {
     const { addImg } = add;

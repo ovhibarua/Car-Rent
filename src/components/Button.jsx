@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Button(add) {
     const { button } = add
