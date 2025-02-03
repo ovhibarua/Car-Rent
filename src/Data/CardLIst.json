@@ -1,0 +1,110 @@
+[
+    {
+        "cardTitle": "Koenigsegg",
+        "cardText": "Sport",
+        "cardImg": "../../src/assets/Icons/cardModel.png",
+        "cardGas": "90L",
+        "cardManual": "Manual",
+        "cardPeople": "2 people",
+        "cardPrice": "$99.00"
+    },
+    {
+        "cardTitle": "Nissan GT - R",
+        "cardText": "Sport",
+        "cardImg": "../../src/assets/Icons/cardModel1.png",
+        "cardGas": "96L",
+        "cardManual": "Manual",
+        "cardPeople": "8 people",
+        "cardPrice": "$99.00"
+    },
+    {
+        "cardTitle": "Rolls - Royce",
+        "cardText": "Sedan",
+        "cardImg": "../../src/assets/Icons/cardModel2.png",
+        "cardGas": "76L",
+        "cardManual": "Manual",
+        "cardPeople": "43 people",
+        "cardPrice": "$99.00"
+    },
+    {
+        "cardTitle": "Nissan GT - R",
+        "cardText": "Sport",
+        "cardImg": "../../src/assets/Icons/cardModel3.png",
+        "cardGas": "67L",
+        "cardManual": "Manual",
+        "cardPeople": "25 people",
+        "cardPrice": "$45.00"
+    },
+    {
+        "cardTitle": "All New Rush",
+        "cardText": "SUV",
+        "cardImg": "../../src/assets/Icons/cardModel4.png",
+        "cardGas": "90L",
+        "cardManual": "Manual",
+        "cardPeople": "28 people",
+        "cardPrice": "$99.00"
+    },
+    {
+        "cardTitle": "CR  - V",
+        "cardText": "SUV",
+        "cardImg": "../../src/assets/Icons/cardModel5.png",
+        "cardGas": "90L",
+        "cardManual": "Manual",
+        "cardPeople": "2 people",
+        "cardPrice": "$99.00"
+    },
+    {
+        "cardTitle": "All New Terios",
+        "cardText": "SUV",
+        "cardImg": "../../src/assets/Icons/cardModel6.png",
+        "cardGas": "90L",
+        "cardManual": "Manual",
+        "cardPeople": "2 people",
+        "cardPrice": "$99.00"
+    },
+    {
+        "cardTitle": "CR  - V",
+        "cardText": "SUV",
+        "cardImg": "../../src/assets/Icons/cardModel7.png",
+        "cardGas": "90L",
+        "cardManual": "Manual",
+        "cardPeople": "2 people",
+        "cardPrice": "$99.00"
+    },
+    {
+        "cardTitle": "MG ZX Exclusice",
+        "cardText": "Hatchback",
+        "cardImg": "../../src/assets/Icons/cardModel8.png",
+        "cardGas": "90L",
+        "cardManual": "Manual",
+        "cardPeople": "2 people",
+        "cardPrice": "$99.00"
+    },
+    {
+        "cardTitle": "New MG ZS",
+        "cardText": "SUV",
+        "cardImg": "../../src/assets/Icons/cardModel9.png",
+        "cardGas": "90L",
+        "cardManual": "Manual",
+        "cardPeople": "2 people",
+        "cardPrice": "$99.00"
+    },
+    {
+        "cardTitle": "All New Terios",
+        "cardText": "SUV",
+        "cardImg": "../../src/assets/Icons/cardModel6.png",
+        "cardGas": "90L",
+        "cardManual": "Manual",
+        "cardPeople": "2 people",
+        "cardPrice": "$99.00"
+    },
+    {
+        "cardTitle": "CR  - V",
+        "cardText": "SUV",
+        "cardImg": "../../src/assets/Icons/cardModel7.png",
+        "cardGas": "90L",
+        "cardManual": "Manual",
+        "cardPeople": "2 people",
+        "cardPrice": "$99.00"
+    }
+]

@@ -1,9 +1,9 @@
 
 
 function Image(add) {
-    const { addImg } = add;
+    const { addImg, animate } = add;
     return (
-        <img src={addImg} alt="img" />
+        <img className={animate} src={addImg} alt="img" />
     )
 }
 

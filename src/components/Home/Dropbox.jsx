@@ -8,7 +8,7 @@ function Dropbox(add) {
     return (
         <div className="px-12 py-7 bg-white rounded-[10px] shadow-xs w-full">
             <div className="flex items-center gap-2 mb-4">
-                <Image addImg={Pick} className="heartbeat" />
+                <Image addImg={Pick} animate={"pulsate-fwd"} />
                 <h4 className="paraDark">{DropTitle}</h4>
             </div>
             <div>

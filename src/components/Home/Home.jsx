@@ -1,4 +1,5 @@
 
+import CardLIst from './CardLIst'
 import Destination from './Destination'
 import HeroBanner from './HeroBanner'
 
@@ -7,6 +8,7 @@ function Home() {
         <>
             <HeroBanner />
             <Destination />
+            <CardLIst />
         </>
     )
 }

@@ -2,7 +2,7 @@ import Logo from './Logo'
 
 function Footer() {
     return (
-        <footer className='bg-white px-8 pt-20 pb-14'>
+        <footer className='bg-white px-8 pt-20 pb-14 mt-12'>
             <div className='border-b-[1px] border-[#13131329] pb-9 flex justify-between mb-9'>
                 <div>
                     <div className='mb-4'>

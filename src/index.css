@@ -2,6 +2,7 @@
 @import "tailwindcss";
 
 
+
 * {
     font-family: "Plus Jakarta Sans", serif;
 }
@@ -47,7 +48,8 @@ body {
         letter-spacing: -0.32px;
     }
 
-    h5 {
+    h5,
+    span {
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
@@ -130,39 +132,30 @@ body {
 }
 
 .bg1 {
-    background-image: url('./assets/Img/bg4.jpg');
+    background-image: url('./assets/Icons/background.png');
     background-size: cover;
     background-position: center;
 }
 
-.heartbeat {
-    animation: heartbeat 1.5s ease-in-out infinite both;
+.pulsate-fwd {
+    animation: pulsate-fwd .5s ease-in-out infinite both
 }
 
-@keyframes heartbeat {
-    from {
+
+@keyframes pulsate-fwd {
+    0% {
         transform: scale(1);
-        transform-origin: center center;
-        animation-timing-function: ease-out;
     }
 
-    10% {
-        transform: scale(0.91);
-        animation-timing-function: ease-in;
+    50% {
+        transform: scale(1.1);
     }
 
-    17% {
-        transform: scale(0.98);
-        animation-timing-function: ease-out;
-    }
-
-    33% {
-        transform: scale(0.87);
-        animation-timing-function: ease-in;
-    }
-
-    45% {
+    100% {
         transform: scale(1);
-        animation-timing-function: ease-out;
     }
+}
+
+.slick-slide>div {
+    margin: 0 16px;
 }
