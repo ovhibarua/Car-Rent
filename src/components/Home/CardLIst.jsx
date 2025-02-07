@@ -19,7 +19,7 @@ function CardLIst() {
         autoplay: true,
     };
     return (
-        <section className="px-8 pb-8">
+        <section className="container mx-auto pb-16">
             <Divide divide={"Popular Car"} view={"View All"} />
             <div className="slider-container mb-11">
                 <Slider  {...settings}>

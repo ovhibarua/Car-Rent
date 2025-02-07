@@ -4,7 +4,8 @@ import Image from './Image'
 
 function Nav() {
     return (
-        <nav className='px-8 py-7 flex justify-between items-center bg-white'>
+        <div className='bg-white'>
+            <nav className='py-7 flex justify-between items-center container mx-auto'>
             <div className='flex items-center gap-16'>
                 <Logo />
                 <div className='flex items-center border-[#C3D4E966] gap-5 border-[1px] px-5 py-2.5 rounded-full'>
@@ -37,6 +38,7 @@ function Nav() {
                 </div>
             </div>
         </nav>
+        </div>
     )
 }
 

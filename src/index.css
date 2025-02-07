@@ -11,6 +11,7 @@ body {
     background: #F6F7F9;
 }
 
+
 @layer base {
     h1 {
         font-size: 32px;
@@ -66,6 +67,14 @@ body {
         letter-spacing: -0.24px;
     }
 
+    li{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: -0.4px;
+    }
+
     p {
         font-size: 16px;
         font-style: normal;
@@ -82,6 +91,7 @@ body {
         line-height: 150%;
         /* 24px */
         letter-spacing: -0.32px;
+        color: #596780;
     }
 
     button {
@@ -141,7 +151,6 @@ body {
     animation: pulsate-fwd .5s ease-in-out infinite both
 }
 
-
 @keyframes pulsate-fwd {
     0% {
         transform: scale(1);
@@ -156,6 +165,37 @@ body {
     }
 }
 
+
 .slick-slide>div {
     margin: 0 16px;
+}
+
+
+.slide-fwd-center {
+    -webkit-animation: slide-fwd-center .45s cubic-bezier(.25, .46, .45, .94) both;
+    animation: slide-fwd-center .45s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@-webkit-keyframes slide-fwd-center {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px)
+    }
+}
+
+@keyframes slide-fwd-center {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px)
+    }
 }

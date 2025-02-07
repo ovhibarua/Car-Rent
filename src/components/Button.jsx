@@ -1,9 +1,9 @@
 
 
 function Button(add) {
-    const { button } = add
+    const { button, btnStyle, btnAnimate } = add
     return (
-        <button className='hover:cursor-pointer'>{button}</button>
+        <button id={btnAnimate} className={`${btnStyle} cursor-pointer`}>{button}</button>
     )
 }
 
