@@ -8,6 +8,7 @@ import dtlLikeUn from "../../../src/assets/Icons/LikeLite.png";
 import Star from "./Star";
 import Button from "../Button";
 import { useState } from "react";
+import Review from "./Review";
 
 function Details() {
   const [fav, setFav] = useState(true);
@@ -40,7 +41,7 @@ function Details() {
             <Image animate="w-full" addImg={view3Img} />
           </div>
         </div>
-        <div className="bg-white p-8 rounded-[10px]">
+        <div className="bg-white p-8 rounded-[10px] mb-8 shadow-xs">
           <div className="mb-6">
             <div className="flex justify-between mb-2">
               <h1>Nissan GT - R</h1>
@@ -95,6 +96,7 @@ function Details() {
           </div>
         </div>
       </div>
+      <Review />
     </div>
   );
 }
