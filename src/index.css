@@ -46,6 +46,23 @@ body {
     letter-spacing: -0.32px;
   }
 
+  label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  input:focus {
+    outline: none;
+  }
+  input {
+    outline: none;
+    color: #90a3bf;
+  }
+  input::placeholder {
+    font-size: 14px;
+  }
+
   h5,
   span {
     font-size: 14px;

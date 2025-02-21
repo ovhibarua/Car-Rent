@@ -1,10 +1,6 @@
-
-
 function Image(add) {
-    const { addImg, animate } = add;
-    return (
-        <img className={animate} src={addImg} alt="img" />
-    )
+  const { addImg, animate } = add;
+  return <img className={animate} src={addImg} />;
 }
 
-export default Image
+export default Image;

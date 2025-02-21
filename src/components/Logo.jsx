@@ -1,10 +1,18 @@
-import React from 'react'
-import Image from './Image'
+import { useNavigate } from "react-router";
+import Image from "./Image";
 
 function Logo() {
-    return (
-        <Image addImg="/src/assets/Icons/Logo.png" />
-    )
+  const navigate = useNavigate();
+  return (
+    <div
+      onClick={() => {
+        navigate("/");
+      }}
+      className="cursor-pointer"
+    >
+      <Image addImg="/src/assets/Icons/Logo.png" />
+    </div>
+  );
 }
 
-export default Logo
+export default Logo;

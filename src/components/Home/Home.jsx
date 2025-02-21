@@ -1,16 +1,15 @@
-
-import CardLIst from './CardLIst'
-import Destination from './Destination'
-import HeroBanner from './HeroBanner'
+import CardLIst from "./CardLIst";
+import Destination from "./Destination";
+import HeroBanner from "./HeroBanner";
 
 function Home() {
-    return (
-        <>
-            <HeroBanner />
-            <Destination />
-            <CardLIst />
-        </>
-    )
+  return (
+    <>
+      <HeroBanner />
+      <Destination />
+      <CardLIst />
+    </>
+  );
 }
 
-export default Home
+export default Home;
